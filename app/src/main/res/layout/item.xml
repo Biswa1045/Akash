@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/green"
+    android:layout_height="200dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/img_item"
+            android:src="@color/white"/>
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steel rod 12 inch ambuja"
+            android:id="@+id/name_item"
+            android:textAlignment="center"
+            android:textColor="@color/back"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1000 per ton"
+            android:id="@+id/price_item"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/back"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1000 pcs"
+            android:id="@+id/stock_item"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="#C6374151"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

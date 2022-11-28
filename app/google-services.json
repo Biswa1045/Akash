@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "460147431109",
+    "firebase_url": "https://akash-a3a95-default-rtdb.firebaseio.com",
+    "project_id": "akash-a3a95",
+    "storage_bucket": "akash-a3a95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460147431109:android:cbefa516dc0814263dc2ac",
+        "android_client_info": {
+          "package_name": "com.biswa1045.akash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460147431109-h0b03799nqpe2aiei53e5b9bdavotd0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.biswa1045.akash",
+            "certificate_hash": "697b7fe98622538d1969a50eaf508400bc9b0e1e"
+          }
+        },
+        {
+          "client_id": "460147431109-2ghli4718o445ibnrvhopq77nf7i3pmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN1wbJzCvzAnIPSMA5aLG8lKLYidmkK0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460147431109-2ghli4718o445ibnrvhopq77nf7i3pmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

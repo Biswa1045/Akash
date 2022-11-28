@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".SigninActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you forget your password contact developer"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/q"
+        android:layout_marginTop="5dp"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/q"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:cardCornerRadius="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:hint="PASSWORD"
+            android:textAlignment="center"
+            android:id="@+id/password"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:onClick="done"
+        android:text="DONE" />
+
+</RelativeLayout>
